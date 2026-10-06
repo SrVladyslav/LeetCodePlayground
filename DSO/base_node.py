@@ -54,3 +54,9 @@ EDGES: list[tuple[int, int]] = [
     (20, 25),
     (25, 22),
 ]
+
+TREE_1: Node = Node(
+    5,
+    Node(6, None, None),
+    Node(1, Node(2, None, Node(3, None, None)), Node(7, None, None)),
+)
